@@ -82,7 +82,7 @@ em {
 	margin-top: 55px;
 	background-color: #f5f5f5;
 	text-align: center;
-	padding-bottom: 40px;
+	
 	padding: 0px;
 }
 
@@ -97,6 +97,10 @@ em {
 	color: #d9534f;
 	background-color: white;
 	border: 1px solid #cfcfcf;
+}
+
+.row {
+	padding-bottom: 50px;
 }
 
 /*FOOTER*/
