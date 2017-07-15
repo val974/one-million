@@ -2,6 +2,22 @@
 body {
 	margin:0;
 }
+
+h2,h3 {
+	text-align: center;
+	font-family : Arvo;
+	color: #d9534f;
+	font-weight: bold;
+}
+
+hr {
+	width:156px;
+	border-color: #d9534f;
+}
+
+.container {
+	width : 1015px;
+}
 /*HEADER*/
 .navbar {
 	margin-bottom: 0px;
@@ -14,8 +30,108 @@ body {
 	background-size: cover;
 	height: 664px;
 	min-width: 100%;
-
+	text-align: center;
 }
+
+.jumbotron h1, .jumbotron p {
+	color: white;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	color: white;
+	text-align: center;
+	font-family: Arvo; sans-serif
+}
+
+.jumbotron p {
+	font-style: italic; 
+	font-size: 1.3em;
+	margin-top: 70px;
+}
+
+.jumbotron button {
+	background-color: #d9534f;
+	font-size: 1.7em; color: white;
+	margin-top: 40px;
+}
+
+.jumbotron img {
+	margin-top: 40px;
+}
+
 /*WHO WE ARE*/
+#who {
+	text-align: center;
+}
+#who img {
+margin-top: 61px;
+}
+
+#who p {
+	color: black;
+	font-size: 1.25em;
+}
+
+em {
+	color : #d9534f;
+}
+
 /*GET INVOLVED*/
+#get {
+	margin-top: 55px;
+	background-color: #f5f5f5;
+	text-align: center;
+	padding-bottom: 40px;
+	padding: 0px;
+}
+
+#get h2 {
+	padding-top: 61px;
+}
+#get p {
+	font-size: 1.25em;
+}
+
+#get button {
+	color: #d9534f;
+	background-color: white;
+	border: 1px solid #cfcfcf;
+}
+
 /*FOOTER*/
+
+footer {
+	height: 237px;
+	background-color: #d9534f;
+}
+footer figure {
+margin-top: 151px;
+}
+
+
+/*MEDIA-QUERIES*/
+
+@media screen and (max-width: 1199px) { 
+	#get {
+		padding-bottom: 52px;
+	}
+}
+
+@media screen and (max-width: 991px) { 
+	.container {
+	width : 635px;
+	}
+	.jumbotron h1 {
+		font-size: 2.8em;
+	}
+	.row button  {
+		margin-bottom: 70px;
+	}
+}
+
+@media screen and (max-width: 767px) { 
+	.container {
+		width: 741px;
+	}
+}
