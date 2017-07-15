@@ -1,0 +1,21 @@
+/*GENERAL*/
+body {
+	margin:0;
+}
+/*HEADER*/
+.navbar {
+	margin-bottom: 0px;
+}
+
+.jumbotron {
+	margin : 0;
+	background: url(../images/hero-image.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 664px;
+	min-width: 100%;
+
+}
+/*WHO WE ARE*/
+/*GET INVOLVED*/
+/*FOOTER*/
